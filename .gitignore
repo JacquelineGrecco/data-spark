@@ -1,0 +1,30 @@
+*.class
+*.log
+*.jar
+*.iml
+
+#Files folder
+files/
+
+#Target folder
+target/
+
+#Intellij folder
+.idea/
+
+#Spark folder
+spark-warehouse/
+
+#Logs folder
+logs/
+
+dependency-reduced-pom.xml
+
+*.DS_Store
+
+.DS_Store
+src/.DS_Store
+src/main/.DS_Store
+src/main/scala/.DS_Store
+src/main/scala/br/.DS_Store
+src/main/scala/br/com/.DS_Store
