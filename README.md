@@ -1,4 +1,4 @@
-# Youse: data-spark
+# Desafio Youse: Data Spark
 
 Este projeto consiste em capturar dados fictícios, os quais são gerados por 2 micro serviços, com informações de orders e apólices. O objetivo do projeto é disponibilizar, através de tabelas relacionais armazenadas em um sqlite, os dados capturados.
 
@@ -27,7 +27,7 @@ _Para que seja possível obter esses e outros KPIs fictícios é necessário rea
 - spark 2.4.0
 - maven como gerenciador de depedências do projeto
 
-##Estrutura do Projeto 
+## Estrutura do Projeto 
 ```
 | data-spark
     |src
@@ -53,14 +53,14 @@ _Para que seja possível obter esses e outros KPIs fictícios é necessário rea
 - utils contém objetos de configurações do spark. 
 - fixtures contém os arquivos .json usados para as transformações. 
  
-##Execução do Projeto
+## Execução do Projeto
 
 ### Observações 
 
 - Não se esqueça de adicionar os parâmetros necessários para a execução das classes OrdersBase e InsurancePolicyBase.
 - Para os Intellij lover, é necessário a autenticação do seu usuário do Github no momento de clonar o projeto. 
 
-###_Command-line lovers_
+### _Command-line lovers_
 
 ```git clone https://github.com/JacquelineGrecco/data-spark.git```
 <br><br>
@@ -72,7 +72,7 @@ _Para que seja possível obter esses e outros KPIs fictícios é necessário rea
  <br><br> 
  ```spark-submit --class br.com.youse.insurance_policy.InsurancePolicyBase target/spark-youse-1.0.0.jar```
  
- ###_Intellij lovers_ 
+ ### _Intellij lovers_ 
  
 ```File -> New -> Project From Version Control -> Git```
 <br><br>
@@ -82,7 +82,7 @@ _Para que seja possível obter esses e outros KPIs fictícios é necessário rea
 <br>ou
 ```src/main/br/com/youse/insurance_policy/InsurancePolicyBase -> Run```
    
-###_Banco de Dados_ 
+### _Banco de Dados_ 
 
 O arquivo do banco de dados está localizado em [sqlite](database.db)
 
